@@ -1,2 +1,4 @@
-# goit-markup-hw-01
-HTML-розмітка макету Web Studio з домашнього завдання #1 (без CSS). Виконано в рамках курсу Fullstack Developer від GoIT.
+# goit-markup-hw-02
+
+Домашнє завдання #2 — HTML+CSS верстка макету Web Studio (Our Portfolio) за макетом з Figma.
+Виконано в рамках курсу Fullstack Developer від GoIT.
