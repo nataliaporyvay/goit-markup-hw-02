@@ -23,94 +23,35 @@ ul {
     list-style: none;
 }
 
-/* Контейнер хедера */
-.page-header .header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    /* Відстань між основними блоками */
-    align-items: center;
+.header {
     background-color: #ffffff;
-    /* Колір фону */
+    /* білий фон */
+    padding: 20px 40px;
 }
 
-/* Навігація: логотип і меню */
-.main-nav {
+.nav {
     display: flex;
-    align-items: center;
-    gap: 60px;
-    /* Відстань між логотипом і меню */
+    justify-content: center;
 }
 
-/* Логотип */
-.logo {
-    font-family:  sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-}
-
-.logo-accent {
-    color: #2e2f42;
-    margin-left: 5px;
-}
-
-/* Меню */
 .nav-list {
     display: flex;
     gap: 40px;
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.nav-list a {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-/* Контакти */
-.contact-info {
-    font-style: normal;
-}
-
-.contact-list {
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.contact-link:hover,
-.contact-link:focus {
+.nav-list a:hover,
+.nav-list a:focus {
     color: #404bbf;
 }
 
