@@ -22,81 +22,85 @@ a {
 ul {
     list-style: none;
 }
+/* Шрифт логотипа */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 .header {
+    border-bottom: 1px solid #e7e9fc;
+    background-color: #fff;
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background-color: #f7f8fc;
+    padding: 24px 0;
 }
 
-.nav,
-.address {
+.nav {
     display: flex;
     align-items: center;
     gap: 40px;
-}
-
-.nav-list,
-.address-list {
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 .logo {
-    font-family: sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
+}
 
-    display: inline-flex;
-    align-items: center;
+.logo-accent {
+    color: #2e2f42;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.logo-accent {
-    color: #4d5ae5;
-}
-
-nav ul {
-    display: flex;
-    gap: 40px;
-}
-
-nav a {
+.nav-link {
     font-size: 16px;
     font-weight: 500;
-    transition: color 0.3s ease;
+    color: #2e2f42;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
-nav a:hover,
-nav a:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
-address ul {
-    display: flex;
-    gap: 40px;
+.address {
+    font-style: normal;
 }
 
-address a {
+.address-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-link {
     font-size: 16px;
     font-weight: 400;
     color: #434455;
-    transition: color 0.3s ease;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
-address a:hover,
-address a:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
