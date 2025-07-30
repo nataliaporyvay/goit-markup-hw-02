@@ -243,6 +243,7 @@ ul {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-list {
