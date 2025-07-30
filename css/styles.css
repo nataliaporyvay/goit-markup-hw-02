@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     background-color: #ffffff;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -48,7 +48,7 @@ ul {
 }
 
 .logo {
-    font-family: "Roboto", sans-serif;
+    font-family:sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.17;
@@ -243,7 +243,7 @@ address a:focus {
 }
 
 .footer-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
