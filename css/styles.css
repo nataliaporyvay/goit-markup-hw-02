@@ -22,9 +22,6 @@ a {
 ul {
     list-style: none;
 }
-/* Шрифт логотипа */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-
 .header {
     border-bottom: 1px solid #e7e9fc;
     background-color: #fff;
@@ -103,7 +100,6 @@ ul {
 .contact-link:focus {
     color: #404bbf;
 }
-
 /* Hero */
 .hero {
     background-color: #2e2f42;
