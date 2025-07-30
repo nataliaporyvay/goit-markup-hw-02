@@ -118,6 +118,7 @@ ul {
     line-height: 1.07;
     max-width: 696px;
     margin: 0 auto 48px;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
