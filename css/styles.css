@@ -253,11 +253,12 @@ ul {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #f4f4fd;
+    color: #4d5ae5;
+    line-height: 1.17;
 }
 
 .footer-logo-accent {
-    color: #4d5ae5;
+    color: #f4f4f4;
 }
 
 .footer-text {
