@@ -44,13 +44,14 @@ ul {
 }
 
 .logo {
-font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .logo-accent {
@@ -66,21 +67,16 @@ font-family: "Raleway", sans-serif;
 }
 
 .nav-link {
+    font-size: 16px;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    
-        transition: color 0.3s ease;
+    color: #2e2f42;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    .nav-link:hover,
-        .nav-link:focus {
-            color: #404bbf;
-        }
+    color: #404bbf;
 }
 
 .address {
@@ -97,19 +93,15 @@ font-family: "Raleway", sans-serif;
 
 .contact-link {
     font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        transition: color 0.3s ease;
-        text-decoration: none;
+    font-weight: 400;
+    color: #434455;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-.contact-link:hover,
-    .contact-link:focus {
-        color: #404bbf;
-    }
+    color: #404bbf;
 }
 
 /* Hero */
