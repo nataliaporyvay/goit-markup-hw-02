@@ -67,7 +67,6 @@ ul, ol {
 .hero {
     background-color: #2e2f42;
     color: #ffffff;
-    padding: 188px 0;
     text-align: center;
 }
 
@@ -75,20 +74,17 @@ ul, ol {
     font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        max-width: 696px;
         margin: 0 auto 48px;
         letter-spacing: 0.02em;
 }
 
 .hero-button {
-    padding: 16px 32px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     color: #ffffff;
     background-color: #4d5ae5;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     letter-spacing: 0.04em;
@@ -131,7 +127,6 @@ ul, ol {
 .team {
     background-color: #f4f4fd;
     text-align: center;
-    padding: 96px 0;
 }
 
 .section-title {
@@ -146,7 +141,6 @@ ul, ol {
 /* List */
 .team-list {
     margin: 0;
-    padding: 0;
     list-style: none;
 }
 .team-member h3 {
@@ -163,14 +157,8 @@ ul, ol {
 /* Card */
 .team-member {
     background-color: #ffffff;
-    padding-bottom: 32px;
 }
 
-.team-photo {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 /* Name */
 .team-name {
@@ -191,9 +179,6 @@ ul, ol {
     margin: 0;
 }
 
-.portfolio {
-    padding: 120px 0;
-}
 
 .section-title {
     font-size: 36px;
@@ -209,14 +194,10 @@ ul, ol {
 .portfolio-list {
     gap: 48px 24px;
     list-style: none;
-    padding: 0;
     margin: 0;
 }
 
 .portfolio-item img {
-    display: block;
-    width: 360px;
-    height: 300px;
     object-fit: cover;
     border: 1px solid #e7e9fc;
 }
@@ -249,7 +230,6 @@ ul, ol {
 }
 
 .footer-container {
-    max-width: 1200px;
     margin: 0 auto;
 }
 
