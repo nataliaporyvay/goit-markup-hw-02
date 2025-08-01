@@ -94,6 +94,7 @@ ul, ol {
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
+    color: #fff;
 }
 
 /* Features */
