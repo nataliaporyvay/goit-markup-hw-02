@@ -123,17 +123,7 @@ ul, ol {
     color: #434455;
 }
 
-.team-member h3 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
 
-.team-member p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #434455;
-}
 
 /* Team Section */
 .team {
@@ -161,7 +151,17 @@ ul, ol {
     padding: 0;
     list-style: none;
 }
+.team-member h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
 
+.team-member p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+}
 /* Card */
 .team-member {
     background-color: #ffffff;
@@ -265,6 +265,7 @@ ul, ol {
 
 /* Footer */
 .footer {
+    font-family: "Raleway", sans-serif;
     background-color: #2e2f42;
     color: #f4f4fd;
     padding: 60px 20px;
