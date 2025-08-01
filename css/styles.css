@@ -272,11 +272,6 @@ ul {
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 .portfolio-wrapper {
     padding: 32px 16px;
