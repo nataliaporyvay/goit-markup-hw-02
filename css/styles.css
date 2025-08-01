@@ -25,16 +25,14 @@ ul, ol {
 .header {
     border-bottom: 1px solid #e7e9fc;
     background-color: #fff;
-}
-
-.header-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 0;
 }
 
-.nav {
+
+.header-nav{
     display: flex;
     align-items: center;
     gap: 40px;
@@ -48,7 +46,6 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
 }
 
 .logo-accent {
@@ -69,7 +66,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: none;
+   
 }
 
 .nav-link:hover,
