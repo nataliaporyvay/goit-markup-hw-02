@@ -7,19 +7,19 @@
 
 body {
     font-family:'Roboto',sans-serif;
-    background-color: #ffffff;
+    color: #434455;
+    background-color: #fff;
     line-height: 24px;
     letter-spacing: 0.02em;
     font-weight: 500;
-    color: #434455;
+   
 }
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
-ul {
+ul, ol {
     list-style: none;
 }
 .header {
